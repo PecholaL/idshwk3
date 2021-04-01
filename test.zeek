@@ -1,4 +1,4 @@
-global xTab :table[count] of set[string];
+global xTab :table[addr] of set[string];
 
 event http_header(c: connection, is_orig: bool, name: string, value: string)
 {
